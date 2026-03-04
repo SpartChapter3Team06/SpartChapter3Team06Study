@@ -59,7 +59,7 @@
 ## 👨‍💻 팀원 소개 및 역할
 
 | 이름 | 역할 | 담당 업무 (세부 구현 내용) | GitHub |
-| :--- | :--- | :--- | :--- |
+| :---: | :--- | :--- | :--- |
 | **&nbsp;김형백  &nbsp;&nbsp;** | **플레이어 & 전투** | - `GameplayTag` 기반 캐릭터 상태(조준, 회피 등) 관리<br>- `SanzoStatComponent`를 통한 스태미나 로직 및 I-Frame 회피 구현<br>- 패링 시스템(성공/실패 분기, 슬로우 효과, 데미지 반사) 고도화<br>- Interface 기반 모듈화 레벨업 시스템 설계 | [@kbrother102](https://github.com/kbrother102)|
 | **&nbsp;김동주  &nbsp;&nbsp;** | **적 AI** | - EnemyBase 클래스 및 Ranged/Melee/Boss, BT/Blackboard AI 구현<br>- 보스전 2페이즈 전환 및 패턴 자동 선택 로직 구현 <br>- 피격/스턴 애니메이션 몽타주 및 콜리전 최적화 | [@DJKIM2002](https://github.com/DJKIM2002) |
 | **&nbsp;이준로  &nbsp;&nbsp;** | **UI & 시스템** | - UMG 기반 HUD, 메인 메뉴, 팝업 UI 및 예외 처리<br>- `DataTable` 기반 플레이어 능력치 강화 시스템 설계<br>- GameState/PlayerController를 통한 게임 흐름 제어 및 엔딩 연출<br>- 길 안내 `NavigationArrow` 컴포넌트 구현 | [@JRoLee](https://github.com/JRoLee) |
