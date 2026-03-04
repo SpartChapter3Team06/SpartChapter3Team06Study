@@ -66,3 +66,52 @@
 │       ├── Controller/   # Player 및 AI 컨트롤러
 │       └── UI/           # C++ 기반 UMG 위젯 클래스
 └── ProjectSanzo.uproject # 언리얼 엔진 실행 파일
+
+💻 설치 및 실행 방법 (How to Build and Run)
+⚠️ 주의: 본 프로젝트의 캐릭터 모델링을 정상적으로 로드하기 위해서는 VRM4U 플러그인이 필수적으로 요구됩니다.
+
+저장소 클론
+
+Bash
+git clone [https://github.com/NbcampUnreal/7th-Team6-CH3-Project.git](https://github.com/NbcampUnreal/7th-Team6-CH3-Project.git)
+플러그인 설치
+
+VRM4U GitHub Releases에서 사용 중인 언리얼 엔진 5 버전에 맞는 플러그인을 다운로드합니다.
+
+프로젝트 최상단 경로에 Plugins 폴더를 생성하고 압축을 해제하여 넣습니다.
+
+프로젝트 생성 및 빌드
+
+프로젝트 폴더 내 ProjectSanzo.uproject 파일을 우클릭합니다.
+
+Generate Visual Studio project files를 클릭하여 .sln 파일을 생성합니다.
+
+생성된 ProjectSanzo.sln 파일을 Visual Studio 2022로 엽니다.
+
+솔루션 구성이 Development Editor / Win64로 되어 있는지 확인하고 빌드(Ctrl+Shift+B) 합니다.
+
+실행
+
+빌드가 완료되면 .uproject 파일을 더블 클릭하여 언리얼 에디터를 실행합니다.
+
+에디터 툴바에서 Play(플레이) 버튼을 눌러 게임을 실행합니다.
+
+🤝 협업 규칙 (Commit & PR Rule)
+저희 팀은 코드의 일관성과 리뷰의 효율성을 위해 다음 규칙을 준수했습니다.
+
+Commit Message Convention
+Feat : 새로운 기능 추가
+
+Fix : 버그 수정
+
+Refactor : 코드 리팩토링
+
+Docs : 문서 수정
+
+PR Template
+팀 내 규정된 pull_request_template.md를 통해 변경 사항, 테스트 내용, 리뷰 포인트 등을 상세히 작성하여 Merge 전 필수 코드 리뷰 진행.
+
+Team 6 - Project Sanzo | 내일배움캠프 언리얼 7기
+
+
+**Would you like me to help you create the actual `pull_request_template.md` file content based on your team rules?**
