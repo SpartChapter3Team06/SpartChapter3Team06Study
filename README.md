@@ -9,8 +9,10 @@
 ---
 
 ## 📖 프로젝트 소개
-**Project Sanzo**는 객체 지향 프로그래밍(OOP) 설계와 언리얼 프레임워크를 적극적으로 활용하여 개발된 **3D 액션 슈팅 RPG**입니다.  
-역사적 요소와 판타지가 결합된 세계관 속에서, 플레이어는 정교한 스태미나 관리와 패링 시스템을 통해 몰입감 넘치는 전투를 경험할 수 있습니다. 깃허브(GitHub) PR 템플릿과 브랜치 전략을 도입하여 체계적인 팀 협업을 실천했습니다.
+**Project Sanzo - 조선신녀비록**는 객체 지향 프로그래밍(OOP) 설계와 언리얼 프레임워크를 활용하여 개발된 **3D 액션 슈팅/로그라이크 게임**입니다.  
+역사적 요소와 판타지가 결합된 세계관 속에서, 플레이어는 총, 활 두 가지 무기를 자유롭게 선택하고, 스태미나 관리와 패링/회피를 통해 전투를 진행합니다.
+플레이어는 레벨 업을 통해서 스테이터스, 기능 추가, 외모 등을 선택하여 업그레이드 할 수 있으며, 선택에 따라 달라지는 멀티 엔딩을 경험할 수 있습니다. 
+깃허브(GitHub) PR 템플릿과 브랜치 전략을 도입하여 체계적인 팀 협업을 실천했습니다.
 
 * **개발 기간**: 2023.02.05 ~ 2023.03.05 (4주)
 * **개발 엔진**: Unreal Engine 5.6.1
@@ -29,7 +31,7 @@
 
 ## 💻 설치 및 실행 방법 (How to Build and Run)
 
-> **⚠️ 주의:** 본 프로젝트의 캐릭터 모델링을 정상적으로 로드하기 위해서는 **VRM4U 플러그인**이 필수적으로 요구됩니다.
+> **⚠️ 주의:** 본 프로젝트의 캐릭터 모델링을 정상적으로 로드하기 위해서는 **VRM4U 플러그인**이 필요합니다.
 
 1. 이 저장소를 로컬 컴퓨터로 클론합니다.  
    git clone [https://github.com/NbcampUnreal/7th-Team6-CH3-Project.git](https://github.com/NbcampUnreal/7th-Team6-CH3-Project.git)
@@ -55,10 +57,10 @@
 | 이름 | 역할 | 담당 업무 (세부 구현 내용) | GitHub |
 | :--- | :--- | :--- | :--- |
 | **&nbsp;김형백 &nbsp;** | **플레이어 & 전투** | - `GameplayTag` 기반 캐릭터 상태(조준, 회피 등) 관리<br>- `SanzoStatComponent`를 통한 스태미나 로직 및 I-Frame 회피 구현<br>- 패링 시스템(성공/실패 분기, 슬로우 효과, 데미지 반사) 고도화<br>- Interface 기반 모듈화 레벨업 시스템 설계 | [@kbrother102](https://github.com/kbrother102)|
-| **&nbsp;김동주 &nbsp;** | **적 AI & 몬스터** | - Melee/Ranged/Boss 몬스터 베이스 클래스 및 BT/Blackboard AI 구현<br>- 보스전 2페이즈 전환 및 페이즈 전용 사운드/이펙트 연동<br>- 피격/스턴 애니메이션 몽타주 및 콜리전 최적화 | [@DJKIM2002](https://github.com/DJKIM2002) |
+| **&nbsp;김동주 &nbsp;** | **적 AI & 몬스터** | - Melee/Ranged/Boss 몬스터 베이스 클래스 및 BT/Blackboard AI 구현<br>- 보스전 2페이즈 전환 및 패턴 자동 선택 로직 구현 <br>- 피격/스턴 애니메이션 몽타주 및 콜리전 최적화 | [@DJKIM2002](https://github.com/DJKIM2002) |
 | **&nbsp;이준로 &nbsp;** | **UI & 시스템** | - UMG 기반 HUD, 메인 메뉴, 팝업 UI 및 예외 처리<br>- `DataTable` 기반 플레이어 능력치 강화 시스템 설계<br>- GameState/PlayerController를 통한 게임 흐름 제어 및 엔딩 연출<br>- 길 안내 `NavigationArrow` 컴포넌트 구현 | [@JRoLee](https://github.com/JRoLee) |
-| **&nbsp;최윤서 &nbsp;** | **코어 루프 & 레벨** | - `StageManager`, `RoomBase`를 활용한 웨이브 및 클리어 로직<br>- Nav Mesh 볼륨 최적화 및 동적 환경 레벨 디자인<br>- 상호작용 오브젝트(도자기, 드랍아이템 등) 구현<br>- 글로벌 BGM 및 스테이지별 사운드 환경 구축 | [@yoonseo4343](https://github.com/yoonseo4343) |
-| **&nbsp;이용호 &nbsp;** | **무기 & 기믹** | - `SanzoWeaponBase` 상속 구조의 총기(Gun) 로직 및 데미지 처리<br>- 유도 미사일 업그레이드 발동 조건 및 동적 데미지 산정<br>- 나이아가라(Niagara) 기반 원거리 적 레이저 조준선 및 타겟팅 기믹 | [@YongHo9961](https://github.com/YongHo9961) |
+| **&nbsp;최윤서 &nbsp;** | **코어 루프 & 레벨** | - `StageManager`, `RoomBase`를 활용한 웨이브 및 클리어 로직<br>- Nav Mesh 볼륨 최적화 및 동적 환경 레벨 디자인<br>- 상호작용 오브젝트(도자기, 드랍아이템 등) 구현<br>- 이펙트 & 사운드 연출 | [@yoonseo4343](https://github.com/yoonseo4343) |
+| **&nbsp;이용호 &nbsp;** | **무기 & 기믹** | - `SanzoWeaponBase` 상속 구조의 총기, 활 로직 및 데미지 처리<br>- `SanzoProjectile` 클래스를 활용한 유도 미사일 업그레이드 발동 조건 및 동적 데미지 산정<br>- 나이아가라(Niagara) 기반 원거리 적 레이저 조준선 및 타겟팅 기믹 | [@YongHo9961](https://github.com/YongHo9961) |
 
 ---
 
@@ -70,19 +72,19 @@
 * 리스크 & 리턴이 확실한 패링 시스템 (스팸 방지, 데미지 반사, 타임 슬로우 효과).
 * 인터페이스 기반의 모듈화된 레벨업 및 외형/스탯 업그레이드 연동.
 
-### 2. 적 AI 및 다크소울식 보스전 (Enemy AI & Boss Fight)
+### 2. 적 AI 및 보스전 (Enemy AI & Boss Fight)
 * AI Controller, Behavior Tree(BT), Blackboard를 활용한 상태 기반 적 AI 구현.
-* 근접/원거리 적의 다양한 공격 패턴 및 스턴(Stun) 상태 이상 구현.
+* 근접/원거리 적 2종류 및 스턴(Stun) 상태 이상 구현, 스턴 게이지 UI 연동.
 * 나이아가라(Niagara) 이펙트를 활용한 원거리 적의 레이저 조준선(Aim Laser) 및 타겟팅 시스템.
-* 보스 몬스터 특수 패턴: 체력 비례에 따른 페이즈 전환(2페이즈) 및 공격 범위 변화 등 긴장감 있는 보스전 구현.
+* 보스 몬스터 특수 패턴: 5가지 공격 패턴 구현, 체력 비례에 따른 페이즈 전환(2페이즈) 및 공격 범위 변화 등 긴장감 있는 보스전 구현.
 
 ### 3. 유기적인 스테이지 흐름 및 게임 루프 (Stage & Core Loop)
 * SanzoStageManager와 SanzoRoomBase를 활용한 모듈화된 스테이지 및 몹 웨이브 관리.
-* 파괴 가능한 오브젝트(도자기 등)를 통한 환경 상호작용 및 파밍 요소.
+* 파괴 가능한 오브젝트(문, 도자기)를 통한 환경 상호작용 및 파밍 요소.
 * 최적화된 Nav Mesh를 통해 AI의 매끄러운 추적 경로 보장.
 
 ### 4. 무기 및 업그레이드 시스템 (Weapon & Upgrade)
-* C++ 상속을 활용한 무기 베이스(SanzoWeaponBase) 및 총기(SanzoGun) 클래스 설계.
+* C++ 상속을 활용한 무기 베이스(SanzoWeaponBase) 및 총기(SanzoGun), 활(SanzoBow) 클래스 설계.
 * 콜리전 트레이스를 통한 정교한 타격 판정 및 유도 미사일(Missile) 발사 기믹 구현.
 * DataTable을 연동한 무기별 공격력, 공격 속도 제어 및 확률 기반 플레이어 강화(Upgrade) 시스템 지원.
 
@@ -100,12 +102,14 @@
 ├── Content/ # 에셋 폴더 (블루프린트, 맵, 메쉬, 머티리얼, UI 등)  
 ├── Source/  
 │ └── ProjectSanzo/ # 메인 C++ 소스 코드  
-│   ├── Character/ # 플레이어 캐릭터 로직 (GameplayTags, Component 등)  
-│   ├── AI/ # 일반 몬스터 및 보스 AI 클래스  
-│   ├── Weapon/ # 무기 베이스 및 Gun 클래스 등   
-│   ├── Stage/ # RoomBase, StageManager 등 스테이지 제어 로직  
-│   ├── GameMode/ # 게임 모드, 게임 스테이트, 데이터 테이블 로직  
-│   ├── Controller/ # 플레이어 컨트롤러 및 AI 컨트롤러  
+│   ├── Character/ # 플레이어 캐릭터 로직 (GameplayTags, Component, Controller 등)  
+│   ├── AI/ # Enemy 및 Boss, AI 클래스  
+│   ├── Weapon/ # WeaponBase 및 Gun, Bow 클래스 등   
+│   ├── Stage/ # RoomBase, StageManager, EnemySpawn 등 스테이지 제어
+│   ├── Core/ # GameMode, GameState, GameInstance, UpgradeData  
+│   ├── Items/ # ItemBase 기반 Item 클래스 및 SpawnData 
+│   ├── Common/ # Tag, Log, DamageType
+│   ├── Notifies/ # 패링, 회피에 사용할 무적 프레임
 │   └── UI/ # UMG 위젯 C++ 기반 메인 UI, HUD 클래스  
 ├── .gitattributes  
 ├── .gitignore  
