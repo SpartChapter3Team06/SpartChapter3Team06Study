@@ -1,6 +1,6 @@
 # 🎮 Project Sanzo
 > **내일배움캠프 언리얼 7기 6조 CH3 프로젝트**
-> Unreal Engine 5 & C++ 기반의 스타일리시 액션 슈팅 게임
+> Unreal Engine 5.6 & C++ 기반의 스타일리시 액션 슈팅 게임
 
 ![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-5.x-white?logo=unrealengine&logoColor=white&color=050505)
 ![C++](https://img.shields.io/badge/C++-99.1%25-00599C?logo=cplusplus&logoColor=white)
