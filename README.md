@@ -54,11 +54,11 @@
 
 | 이름 | 역할 | 담당 업무 (세부 구현 내용) | GitHub |
 | :--- | :--- | :--- | :--- |
-| **&nbsp;&nbsp;김형백&nbsp;** | **플레이어 & 전투** | - `GameplayTag` 기반 캐릭터 상태(조준, 회피 등) 관리<br>- `SanzoStatComponent`를 통한 스태미나 로직 및 I-Frame 회피 구현<br>- 패링 시스템(성공/실패 분기, 슬로우 효과, 데미지 반사) 고도화<br>- Interface 기반 모듈화 레벨업 시스템 설계 | [@kbrother102](https://github.com/kbrother102)|
-| **&nbsp;&nbsp;김동주&nbsp;** | **적 AI & 몬스터** | - Melee/Ranged/Boss 몬스터 베이스 클래스 및 BT/Blackboard AI 구현<br>- 보스전 2페이즈 전환 및 페이즈 전용 사운드/이펙트 연동<br>- 피격/스턴 애니메이션 몽타주 및 콜리전 최적화 | [@djkim12](https://github.com/djkim12) |
-| **&nbsp;&nbsp;이준로&nbsp;** | **UI & 시스템** | - UMG 기반 HUD, 메인 메뉴, 팝업 UI 및 예외 처리<br>- `DataTable` 기반 플레이어 능력치 강화 시스템 설계<br>- GameState/PlayerController를 통한 게임 흐름 제어 및 엔딩 연출<br>- 길 안내 `NavigationArrow` 컴포넌트 구현 | [@JRoLee](https://github.com/JRoLee) |
-| **&nbsp;&nbsp;최윤서&nbsp;** | **코어 루프 & 레벨** | - `StageManager`, `RoomBase`를 활용한 웨이브 및 클리어 로직<br>- Nav Mesh 볼륨 최적화 및 동적 환경 레벨 디자인<br>- 파괴 가능한 상호작용 오브젝트(도자기 등) 구현<br>- 글로벌 BGM 및 스테이지별 사운드 환경 구축 | [@yoonseo](https://github.com/yoonseo) |
-| **&nbsp;&nbsp;이용호&nbsp;** | **무기 & 기믹** | - `SanzoWeaponBase` 상속 구조의 총기(Gun) 로직 및 데미지 처리<br>- 유도 미사일 업그레이드 발동 조건 및 동적 데미지 산정<br>- 나이아가라(Niagara) 기반 원거리 적 레이저 조준선 및 타겟팅 기믹 | [@YongHo](https://github.com/YongHo) |
+| **&nbsp;김형백 &nbsp;** | **플레이어 & 전투** | - `GameplayTag` 기반 캐릭터 상태(조준, 회피 등) 관리<br>- `SanzoStatComponent`를 통한 스태미나 로직 및 I-Frame 회피 구현<br>- 패링 시스템(성공/실패 분기, 슬로우 효과, 데미지 반사) 고도화<br>- Interface 기반 모듈화 레벨업 시스템 설계 | [@kbrother102](https://github.com/kbrother102)|
+| **&nbsp;김동주 &nbsp;** | **적 AI & 몬스터** | - Melee/Ranged/Boss 몬스터 베이스 클래스 및 BT/Blackboard AI 구현<br>- 보스전 2페이즈 전환 및 페이즈 전용 사운드/이펙트 연동<br>- 피격/스턴 애니메이션 몽타주 및 콜리전 최적화 | [@djkim12](https://github.com/djkim12) |
+| **&nbsp;이준로 &nbsp;** | **UI & 시스템** | - UMG 기반 HUD, 메인 메뉴, 팝업 UI 및 예외 처리<br>- `DataTable` 기반 플레이어 능력치 강화 시스템 설계<br>- GameState/PlayerController를 통한 게임 흐름 제어 및 엔딩 연출<br>- 길 안내 `NavigationArrow` 컴포넌트 구현 | [@JRoLee](https://github.com/JRoLee) |
+| **&nbsp;최윤서 &nbsp;** | **코어 루프 & 레벨** | - `StageManager`, `RoomBase`를 활용한 웨이브 및 클리어 로직<br>- Nav Mesh 볼륨 최적화 및 동적 환경 레벨 디자인<br>- 파괴 가능한 상호작용 오브젝트(도자기 등) 구현<br>- 글로벌 BGM 및 스테이지별 사운드 환경 구축 | [@yoonseo](https://github.com/yoonseo) |
+| **&nbsp;이용호 &nbsp;** | **무기 & 기믹** | - `SanzoWeaponBase` 상속 구조의 총기(Gun) 로직 및 데미지 처리<br>- 유도 미사일 업그레이드 발동 조건 및 동적 데미지 산정<br>- 나이아가라(Niagara) 기반 원거리 적 레이저 조준선 및 타겟팅 기믹 | [@YongHo](https://github.com/YongHo) |
 
 ---
 
