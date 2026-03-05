@@ -32,11 +32,11 @@
 | :---: | 
 |<img width="2559" height="1439" alt="스크린샷 2026-03-05 122257" src="https://github.com/user-attachments/assets/a1f4e6cb-b1e3-4cd9-a6b8-a86c03823fc7" />|
 | 섬멸전 화면 |
-| <img width="2559" height="1439" alt="스크린샷 2026-03-05 122308" src="https://github.com/user-attachments/assets/e7c4f03c-be04-4e38-97c5-749cc13f4266" />|
+| <img width="2559" height="1439" alt="스크린샷 2026-03-05 124007" src="https://github.com/user-attachments/assets/685c14e5-6f1b-40e5-800d-3a55f7170c7e" />|
 | 방호전 화면 |
-|<img width="2559" height="1439" alt="스크린샷 2026-03-05 122333" src="https://github.com/user-attachments/assets/8eb9a29b-8a51-4eb9-9cbe-afc1cef86c37" />|
+|<img width="2559" height="1439" alt="스크린샷 2026-03-05 124133" src="https://github.com/user-attachments/assets/66b3f7e0-1913-40e9-9af8-941d41279788" />|
 | 대장전 화면 |
-|<img width="2559" height="1439" alt="스크린샷 2026-03-05 122556" src="https://github.com/user-attachments/assets/020b127b-c142-4f23-989f-f93d47260a7b" /> |
+|<img width="2559" height="1439" alt="스크린샷 2026-03-05 124314" src="https://github.com/user-attachments/assets/b87c6697-0b0f-4fcd-8dad-f415b1bcd6aa" /> |
 |<img width="2560" height="1600" alt="2026-03-05_122736" src="https://github.com/user-attachments/assets/fb6ce413-1857-450d-90cd-106fece6e587" />|
 |<img width="2560" height="1600" alt="2026-03-05_122619" src="https://github.com/user-attachments/assets/fa7beecf-d6da-44ed-943c-b520ab3d7932" />|
 
