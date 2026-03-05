@@ -25,12 +25,25 @@
 
 ---
 
-## 📸 스크린샷 및 플레이 영상 (Screenshots & Gameplay)
+## 📸 스크린샷 및 프로젝트 시연 영상 (Screenshots & Gameplay)
 
-| 메인 화면 | 보스전 및 무기 장착 화면 |
-| :---: | :---: |
-| | |
+### 📸 스크린샷
+| 메인 화면 |
+| :---: | 
+|<img width="2559" height="1439" alt="스크린샷 2026-03-05 122257" src="https://github.com/user-attachments/assets/a1f4e6cb-b1e3-4cd9-a6b8-a86c03823fc7" />|
+| 섬멸전 화면 |
+| <img width="2559" height="1439" alt="스크린샷 2026-03-05 122308" src="https://github.com/user-attachments/assets/e7c4f03c-be04-4e38-97c5-749cc13f4266" />|
+| 방호전 화면 |
+|<img width="2559" height="1439" alt="스크린샷 2026-03-05 122333" src="https://github.com/user-attachments/assets/8eb9a29b-8a51-4eb9-9cbe-afc1cef86c37" />|
+| 대장전 화면 |
+|<img width="2559" height="1439" alt="스크린샷 2026-03-05 122556" src="https://github.com/user-attachments/assets/020b127b-c142-4f23-989f-f93d47260a7b" /> |
+|<img width="2560" height="1600" alt="2026-03-05_122736" src="https://github.com/user-attachments/assets/fb6ce413-1857-450d-90cd-106fece6e587" />|
+|<img width="2560" height="1600" alt="2026-03-05_122619" src="https://github.com/user-attachments/assets/fa7beecf-d6da-44ed-943c-b520ab3d7932" />|
 
+### 🎥 프로젝트 시연 영상
+[![내일배움캠프 언리얼 7기 - 슈터 게임 프로젝트 6조 [조선신녀비록] 시연 영상](https://img.youtube.com/vi/ZuqtL_jlpgc/maxresdefault.jpg)](https://www.youtube.com/watch?v=ZuqtL_jlpgc)
+
+> 이미지 클릭 시 유튜브 영상으로 이동합니다.
 ---
 
 ## 💻 설치 및 실행 방법 (How to Build and Run)
@@ -38,6 +51,10 @@
 ### A. 패키징 버전
 
 [GoogleDrive](https://drive.google.com/file/d/1fR1nKe2ZK3ieqCI6SH9HNQYN57xOp04l/view?usp=drive_link)
+
+1. 구글 드라이브에서 다운로드 받은 zip 파일을 압축 해제합니다.
+
+2. ProjectSanzo.exe 파일을 관리자 권한으로 실행합니다.
 
 ### B. Git 버전
 
