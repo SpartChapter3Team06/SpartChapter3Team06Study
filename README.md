@@ -35,6 +35,12 @@
 
 ## 💻 설치 및 실행 방법 (How to Build and Run)
 
+### A. 패키징 버전
+
+[GoogleDrive](https://drive.google.com/file/d/1fR1nKe2ZK3ieqCI6SH9HNQYN57xOp04l/view?usp=drive_link)
+
+### B. Git 버전
+
 > **⚠️ 주의:** 본 프로젝트의 캐릭터 모델링을 정상적으로 로드하기 위해서는 **VRM4U 플러그인**이 필요합니다.
 
 1. 이 저장소를 로컬 컴퓨터로 클론합니다.  
