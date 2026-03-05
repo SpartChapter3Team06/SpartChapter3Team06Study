@@ -25,25 +25,27 @@
 
 ---
 
-## 📸 스크린샷 및 프로젝트 시연 영상 (Screenshots & Gameplay)
+## 🎥 프로젝트 시연 영상 및 스크린샷 (Gameplay & Screenshots)
+
+### 🎥 프로젝트 시연 영상
+[![내일배움캠프 언리얼 7기 - 슈터 게임 프로젝트 6조 [조선신녀비록] 시연 영상](https://img.youtube.com/vi/ZuqtL_jlpgc/maxresdefault.jpg)](https://www.youtube.com/watch?v=ZuqtL_jlpgc) 
+
+> 이미지 클릭 시 유튜브 영상으로 이동합니다.
 
 ### 📸 스크린샷
-| 메인 화면 |
-| :---: | 
-|<img width="2559" height="1439" alt="스크린샷 2026-03-05 122257" src="https://github.com/user-attachments/assets/a1f4e6cb-b1e3-4cd9-a6b8-a86c03823fc7" />|
+
 | 섬멸전 화면 |
+| :---: | 
 | <img width="2559" height="1439" alt="스크린샷 2026-03-05 124007" src="https://github.com/user-attachments/assets/685c14e5-6f1b-40e5-800d-3a55f7170c7e" />|
+|<img width="2559" height="1439" alt="스크린샷 2026-03-05 124600" src="https://github.com/user-attachments/assets/ebc756a8-ea98-4222-a1fe-e066fa9e0414" />|
 | 방호전 화면 |
 |<img width="2559" height="1439" alt="스크린샷 2026-03-05 124133" src="https://github.com/user-attachments/assets/66b3f7e0-1913-40e9-9af8-941d41279788" />|
+|<img width="2559" height="1439" alt="스크린샷 2026-03-05 124636" src="https://github.com/user-attachments/assets/6ae7814b-5087-4fc6-8114-d1ebcdde8b91" />|
 | 대장전 화면 |
 |<img width="2559" height="1439" alt="스크린샷 2026-03-05 124314" src="https://github.com/user-attachments/assets/b87c6697-0b0f-4fcd-8dad-f415b1bcd6aa" /> |
 |<img width="2560" height="1600" alt="2026-03-05_122736" src="https://github.com/user-attachments/assets/fb6ce413-1857-450d-90cd-106fece6e587" />|
 |<img width="2560" height="1600" alt="2026-03-05_122619" src="https://github.com/user-attachments/assets/fa7beecf-d6da-44ed-943c-b520ab3d7932" />|
 
-### 🎥 프로젝트 시연 영상
-[![내일배움캠프 언리얼 7기 - 슈터 게임 프로젝트 6조 [조선신녀비록] 시연 영상](https://img.youtube.com/vi/ZuqtL_jlpgc/maxresdefault.jpg)](https://www.youtube.com/watch?v=ZuqtL_jlpgc)
-
-> 이미지 클릭 시 유튜브 영상으로 이동합니다.
 ---
 
 ## 💻 설치 및 실행 방법 (How to Build and Run)
